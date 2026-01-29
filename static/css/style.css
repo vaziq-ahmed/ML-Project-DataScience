@@ -1,0 +1,109 @@
+/* ===== GLOBAL STYLES ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* ===== INDEX PAGE ===== */
+.landing-card {
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 16px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+.landing-card h1 {
+    font-weight: 700;
+    color: #333;
+}
+
+.landing-card p {
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* ===== FORM CARD ===== */
+.card {
+    border: none;
+    border-radius: 18px;
+}
+
+.card-body {
+    padding: 40px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+/* ===== FORM LABELS ===== */
+.form-label {
+    font-weight: 600;
+    color: #444;
+}
+
+/* ===== INPUTS & SELECTS ===== */
+.form-control,
+.form-select {
+    border-radius: 10px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* ===== BUTTONS ===== */
+.btn-primary {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-success {
+    background: linear-gradient(135deg, #43cea2, #185a9d);
+    border: none;
+    border-radius: 30px;
+    padding: 12px 40px;
+    font-weight: 600;
+}
+
+.btn-success:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ===== RESULT BOX ===== */
+.alert-info {
+    background: linear-gradient(135deg, #e0f7fa, #e1bee7);
+    color: #333;
+    border-radius: 12px;
+    font-size: 1.2rem;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 25px;
+    }
+
+    .landing-card {
+        padding: 30px;
+    }
+}
